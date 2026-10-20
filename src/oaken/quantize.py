@@ -149,5 +149,4 @@ class MultiThresholdTokenwiseQuantizer(OakenQuantizer):
 
         val_frac = [(torch.count_nonzero(mask) / torch.numel(mask)).item() for mask in masks]
         return (result_tensor, val_frac, heat_map)
-PYEOF
-python3 -c "import ast;ast.parse(open('src/oaken/quantize.py').read());print('written, syntax ok')"
+
