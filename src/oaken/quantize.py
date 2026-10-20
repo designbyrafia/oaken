@@ -1,6 +1,4 @@
-%%bash
-cd /content/oaken
-cat > src/oaken/quantize.py << 'PYEOF'
+
 import torch
 from typing import Optional
 
